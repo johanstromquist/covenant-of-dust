@@ -117,6 +117,9 @@ a:hover { color: #f0c77a; }
   border-color: var(--brass);
   background: linear-gradient(180deg, rgba(126,33,31,0.45), rgba(36,30,23,0.9));
 }
+/* colour-code the chapter tabs by type (matches the chapter cards): red = scenario, teal = intermission */
+.tab-link.scenario-full { border-left: 3px solid var(--blood); }
+.tab-link.scenario-intermission { border-left: 3px solid var(--verdigris); }
 
 main { padding: clamp(0.9rem, 2vw, 1.6rem); }
 .panel { display: none; }
